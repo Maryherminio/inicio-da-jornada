@@ -4,9 +4,9 @@ Criar nova pasta
 botão direito do mouse ---> git BASH here
 
 git init(enter)
-------
+----------
 git status(enter) //para vê os arquivos que tem dentro
-------
+----------
 add arquivo: entre as " " escrever o nome do arquivo
 
 git add "Aprendendo git.txt"
@@ -14,3 +14,42 @@ git add "Aprendendo git.txt"
 Para add todos arquivos da pasta:
 
 git add .(enter)
+-----------
+
+Para iniciar o commit (Primeira versão)
+
+git commit -m "commit inicial"
+
+se for a primeira vez, precisa configurar:
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+
+Após configurado escrever novamente
+
+git commit -m "commit inicial"
+-------------
+
+Para adicionar no github
+
+git push
+
+git remote add origin https://github.com/Maryherminio/inicio-da-jornada
+
+git push
+
+git push --set-upstream origin master
+------------
+
+Add uma nova versão
+
+git status
+git add .
+git status
+git commit -m "modificando o GitHub"
+git push
+
