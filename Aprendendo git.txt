@@ -1,0 +1,16 @@
+Aprendendo a criar uma pasta git
+
+Criar nova pasta
+botão direito do mouse ---> git BASH here
+
+git init(enter)
+------
+git status(enter) //para vê os arquivos que tem dentro
+------
+add arquivo: entre as " " escrever o nome do arquivo
+
+git add "Aprendendo git.txt"
+
+Para add todos arquivos da pasta:
+
+git add .(enter)
